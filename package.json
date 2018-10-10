@@ -1,0 +1,43 @@
+{
+  "name": "pack",
+  "version": "1.0.0",
+  "description": "打包vue，react项目工具",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --color --hot --devtool source-map --env.src=./pages",
+    "build": "webpack --progress --env.src=./pages",
+  },
+  "keywords": [
+    "vue",
+    "react",
+    "打包",
+    "构建"
+  ],
+  "author": "吴志祥",
+  "license": "ISC",
+  "devDependencies": {
+    "autodll-webpack-plugin": "0.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "1.1.4",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "0.5.8",
+    "webpack": "3.4.0",
+    "webpack-dev-server": "2.6.1"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
